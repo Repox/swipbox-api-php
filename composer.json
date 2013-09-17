@@ -1,5 +1,7 @@
 {
     "name": "repox/swipbox",
+    "version": "1.0.1-dev",
+    "type": "library",    
     "description": "Client Library for Swipbox API integration",
     "license": "MIT",
     "authors": [
