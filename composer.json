@@ -1,0 +1,19 @@
+{
+    "name": "repox/swipbox",
+    "description": "Client Library for Swipbox API integration",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dan Storm",
+            "email": "storm@catalystcode.net"
+        }
+    ],
+    "require": {
+    	"guzzle/guzzle": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {        
+            "Swipbox": "src/"
+        }
+    }    
+}
