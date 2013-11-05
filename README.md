@@ -25,7 +25,7 @@ You need an account with [SwipBox](http://www.swipbox.com) to use the API.
 	* [Find Active Favorites](#find_active_favorites)
 	* [Find stations near to favorite](#find_near_to_favorite)
 	* [Find stations by zip](#find_by_zip)
-	* [Get station by its pick ip ID](#find_station_by_id)
+	* [Get station by its pick up ID](#get_station_by_id)
 * [Track & Trace](#track)	
 * [Errors](#errors)	
 	* [Error codes](#error_codes)	
