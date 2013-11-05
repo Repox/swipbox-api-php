@@ -53,7 +53,7 @@ For installation with Composer (recommended), add the `repox/swipbox` package to
 
 	{
 	    "require": {
-	        "repox/swipbox": "dev-master"
+	        "repox/swipbox": "1.1.*"
 	    }
 	}
 
@@ -62,7 +62,7 @@ And enable autoloading by including `vendor/autoload.php`.
 <a name="manual"></a>
 ### Manual installation
 
-Unpack `src/Swipbox/` into a folder and include the files for use.
+Download the latest [stable tag](https://github.com/Repox/swipbox-api-php/archive/1.1.2.zip) and unpack `src/` into a folder and include the files for use.
 
 	<?php
 	include 'Swipbox/Client.php';
