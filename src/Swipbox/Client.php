@@ -125,7 +125,7 @@ class Client
 	 */		
 	public function find_near_to_favorite( Array $params )
 	{
-		return $this->_execute('find_active_favorites', $params);
+		return $this->_execute('find_near_to_favorite', $params);
 	}
 
 	/**
@@ -139,6 +139,19 @@ class Client
 	{
 		return $this->_execute('find_by_zip', $params);
 	}
+
+	/**
+	 * Get the details of a specific station
+	 *
+	 * @param Array $params An array of parameters as specified in the docs.
+	 * @throws \Swipbox\Exception
+	 * @return Array A decoded JSON array
+	 */						
+	public function get_station_by_id( Array $params )
+	{
+		return $this->_execute('get_station_by_id', $params);
+	}
+
 	
 	/**
 	 * Track the parcels trip
